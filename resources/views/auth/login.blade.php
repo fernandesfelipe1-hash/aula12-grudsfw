@@ -19,6 +19,7 @@
 
                 <div class="input-group mb-3">
                     <input 
+                        dusk="login-email"
                         type="email" 
                         name="email" 
                         class="form-control" 
@@ -34,6 +35,7 @@
 
                 <div class="input-group mb-3">
                     <input 
+                        dusk="login-password"
                         type="password" 
                         name="password" 
                         class="form-control" 
