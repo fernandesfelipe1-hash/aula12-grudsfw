@@ -14,8 +14,8 @@ class ListaFilmesTest extends DuskTestCase
     public function test_example(): void
     {
         $this->browse(function (Browser $browser) {
-            $browser->visit('/')
-                ->assertSee('Laravel');
+            $browser->visit('/dashboard')
+                ->assertSee('sistema');
         });
     }
 }
